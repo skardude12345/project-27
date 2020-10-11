@@ -32,7 +32,7 @@ function draw() {
   Engine.update(engine);
 
   if (keyDown("up")){
-    Body.applyForce(bob3.body, bob3.body.position, {x: -0.04, y: 0} );
+    Body.applyForce(bob3.body, bob3.body.position, {x: -0.01, y: 0} );
 
   }
   
